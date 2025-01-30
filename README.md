@@ -34,7 +34,7 @@ python manage.py migrate
 ```
 
 ### Usage 
-To start the server, run:
+To start the server, run:   
 ```bash
 python manage.py runserver
 ```
@@ -44,7 +44,7 @@ The API will be available at ``.
 
 ## API Documentation
 
-- Endpoint: `GET /api/users`
+- Endpoint: `GET /api/user/`
 - Response Format:
 ```json
 {
