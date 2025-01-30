@@ -41,7 +41,7 @@ class UserDetails(APIView):
         """
         data = {
             'email': 'adegbiranayinoluwa.paul@yahoo.com',
-            'current_datetime': datetime.now().isoformat() + 'Z',
-            'github_link': 'https://github.com/Tha-Orakkle/hng-stage-0-backend-01',
+            'current_datetime': datetime.now().replace(microsecond=0).isoformat() + 'Z',
+            'github_url': "https://github.com/Tha-Orakkle/hng-stage-0-backend-01",
         }
         return Response(data, status=200)
